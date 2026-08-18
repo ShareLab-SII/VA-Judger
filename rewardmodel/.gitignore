@@ -1,0 +1,8 @@
+outputs/
+outputs_old/
+data/
+weights/
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store

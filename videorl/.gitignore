@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+outputs/
+weights/
+logs/
+*.log
+*.pid
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+wandb/

@@ -1,0 +1,30 @@
+# Runtime artifacts
+core
+core.*
+*.log
+*.pid
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Training data, checkpoints, and generated outputs
+data/
+weights/
+outputs/
+outputs_old/
+wandb/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
