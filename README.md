@@ -642,3 +642,16 @@ We also thank [vLLM](https://github.com/vllm-project/vllm), [vLLM-Omni](https://
 If you have any suggestions or find our work helpful, feel free to contact us.
 
 Email: [yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
+
+## Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@article{huang2026vajudger,
+  title={VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation},
+  author={Huang, Yinming and Tu, Shuyuan and Yan, Xi and Yang, Zihan and Han, Jianhua and Hang, Xu and Jiang, Yu-Gang and Wu, Zuxuan},
+  journal={arXiv preprint arXiv:2608.18607},
+  year={2026}
+}
+```
