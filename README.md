@@ -83,6 +83,10 @@ Using reinforcement learning to post-train joint video and audio generation mode
 
 *VA-Judger learns the comparison rubric from easy pairs, aligns with human feedback on hard pairs, and is refined with dimension-wise GRPO.*
 
+## 🔥 News
+
+- **2026-08-20:** The project page, paper, basic code, checkpoints, and VA-Judger-Bench are now available. Additional training code and the VAPref-10K dataset will be released soon. Stay tuned!
+
 ## 🛠️ To-Do List
 
 - [x] Reward model SFT code
