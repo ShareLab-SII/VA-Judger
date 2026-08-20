@@ -79,8 +79,8 @@ README 参考 OmniNFT 的组织方式重新编写，包含环境配置、权重�
 
 | 内容 | Hugging Face 来源 | 默认位置 |
 | --- | --- | --- |
-| VA-Judger 训练 LoRA | `YinmingHuang/VA-Judger/LTX-RL-VA-Judger` | `weights/VA-Judger/LTX-RL-VA-Judger/lora` |
-| Qwen3-Omni reward model | `YinmingHuang/VA-Judger/VA-Judger` | `weights/VA-Judger/VA-Judger` |
+| VA-Judger 训练 LoRA | `ShareLab-SII/VA-Judger/LTX-RL-VA-Judger` | `weights/VA-Judger/LTX-RL-VA-Judger/lora` |
+| Qwen3-Omni reward model | `ShareLab-SII/VA-Judger/VA-Judger` | `weights/VA-Judger/VA-Judger` |
 | LTX-2 19B dev | `Lightricks/LTX-2` | `weights/LTX-2/ltx-2-19b-dev.safetensors` |
 | distilled refinement LoRA | `Lightricks/LTX-2` | `weights/LTX-2/ltx-2-19b-distilled-lora-384.safetensors` |
 | 2x spatial upsampler | `Lightricks/LTX-2` | `weights/LTX-2/latent_upsampler/diffusion_pytorch_model.safetensors` |

@@ -16,7 +16,7 @@ fi
 mkdir -p "${WEIGHTS_ROOT}/VA-Judger" "${WEIGHTS_ROOT}/LTX-2"
 
 echo "Downloading VA-Judger LoRA and reward model..."
-"${HF[@]}" YinmingHuang/VA-Judger \
+"${HF[@]}" ShareLab-SII/VA-Judger \
   --include "LTX-RL-VA-Judger/*" "VA-Judger/*" \
   --local-dir "${WEIGHTS_ROOT}/VA-Judger"
 

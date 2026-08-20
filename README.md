@@ -4,8 +4,8 @@
 <a href="https://arxiv.org/abs/2608.18607"><img src="https://img.shields.io/badge/arXiv-2608.18607-b31b1b" alt="arXiv"/></a>
 <a href="https://www.youtube.com/watch?v=HUiEFLTY9-E"><img src="https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube&logoColor=white" alt="YouTube"/></a>
 <a href="https://www.bilibili.com/video/BV1Sz8c68EV5/?vd_source=9e73e8b16636f0c4c833f867173cb014"><img src="https://img.shields.io/badge/Bilibili-Video-00A1D6?logo=bilibili&logoColor=white" alt="Bilibili"/></a>
-<a href="https://huggingface.co/YinmingHuang/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-VA--Judger-ffc107" alt="Checkpoints"/></a>
-<a href="https://huggingface.co/datasets/YinmingHuang/VA-Judger-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-VA--Judger--Bench-4c8bf5" alt="Dataset"/></a>
+<a href="https://huggingface.co/ShareLab-SII/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-VA--Judger-ffc107" alt="Checkpoints"/></a>
+<a href="https://huggingface.co/datasets/ShareLab-SII/VA-Judger-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-VA--Judger--Bench-4c8bf5" alt="Dataset"/></a>
 
 [Yinming Huang](https://yinminghuang.github.io/)<sup>\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>\*</sup>, Xi Yan, [Zihan Yang](https://github.com/pnotp), [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en), [Xu Hang](https://scholar.google.com/citations?user=J_8TX6sAAAAJ&hl=en&oi=ao) [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>†</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>†</sup>
 
@@ -173,11 +173,11 @@ PY
 python -m pip install -U huggingface_hub
 hf auth login
 
-hf download YinmingHuang/VA-Judger \
+hf download ShareLab-SII/VA-Judger \
   --include 'VA-Judger/*' \
   --local-dir weights/VA-Judger
 
-hf download YinmingHuang/VA-Judger-Bench \
+hf download ShareLab-SII/VA-Judger-Bench \
   --repo-type dataset \
   --local-dir data/VA-Judger-Bench
 ```

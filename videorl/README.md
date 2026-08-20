@@ -3,7 +3,7 @@
 <h4 align="center">Dimension-aware Reinforcement Learning for Joint Audio-Video Generation</h4>
 
 <p align="center">
-  <a href="https://huggingface.co/YinmingHuang/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-VA--Judger-ffc107" alt="Hugging Face"/>
+  <a href="https://huggingface.co/ShareLab-SII/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-VA--Judger-ffc107" alt="Hugging Face"/>
 </p>
 
 VA-Judger is a compact release of our reinforcement-learning pipeline for
@@ -106,8 +106,8 @@ The script downloads:
 
 | Component | Source | Default local path |
 | --- | --- | --- |
-| VA-Judger training LoRA | [LTX-RL-VA-Judger](https://huggingface.co/YinmingHuang/VA-Judger/tree/main/LTX-RL-VA-Judger) | `weights/VA-Judger/LTX-RL-VA-Judger/lora` |
-| Qwen3-Omni reward model | [VA-Judger](https://huggingface.co/YinmingHuang/VA-Judger/tree/main/VA-Judger) | `weights/VA-Judger/VA-Judger` |
+| VA-Judger training LoRA | [LTX-RL-VA-Judger](https://huggingface.co/ShareLab-SII/VA-Judger/tree/main/LTX-RL-VA-Judger) | `weights/VA-Judger/LTX-RL-VA-Judger/lora` |
+| Qwen3-Omni reward model | [VA-Judger](https://huggingface.co/ShareLab-SII/VA-Judger/tree/main/VA-Judger) | `weights/VA-Judger/VA-Judger` |
 | LTX-2 19B dev model | [Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2) | `weights/LTX-2/ltx-2-19b-dev.safetensors` |
 | LTX-2 distilled refinement LoRA | [Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2) | `weights/LTX-2/ltx-2-19b-distilled-lora-384.safetensors` |
 | 2x spatial upsampler | [Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2/tree/main/latent_upsampler) | `weights/LTX-2/latent_upsampler/diffusion_pytorch_model.safetensors` |
