@@ -17,9 +17,34 @@
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
+## News
+
+- `[2026-08-20]`: 🔥 The project page, paper, basic code, checkpoints, and VA-Judger-Bench are now available. Additional training code and the VAPref-10K dataset will be released soon. Stay tuned!
+
+## 🛠️ To-Do List
+
+- [x] Reward model SFT code
+- [x] LTX-2 RL code
+- [x] VA-Judger-Bench
+- [x] VA-Judger checkpoint
+- [x] RL post-trained LTX-2 checkpoint
+- [x] Reward model inference code
+- [x] Video model inference code
+- [ ] Reward model dimension-wise GRPO code
+- [ ] VAPref-10K dataset release
+
+VA-Judger provides an end-to-end recipe for:
+
+1. evaluating a Qwen3-Omni audio-video preference reward model on VA-Judger-Bench;
+2. generating audio-video samples with an LTX-2 model merged with the released RL LoRA;
+3. supervised fine-tuning of the reward model with MS-Swift; and
+4. optimizing LTX-2 with dimension-aware GRPO rewards from VA-Judger.
+
+The reward model compares two candidate audio-video generations for the same prompt. It predicts the preferred candidate and scores prompt alignment, audio-video consistency, audio quality, video quality, and content completeness. During video-model RL, these scores are routed to the shared, audio, and video branches of LTX-2.
+
 ## Abstract
 
-Using reinforcement learning to post-train joint video and audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perceptual dimensions separately and fail to capture the holistic coherence across text, video, audio, motion, and semantics that drives human preference. More critically, they are poorly aligned with actual human judgments. Optimizing models against these metrics encourages reward hacking, generating video-audio content that achieves high scores on these metrics yet appears incoherent or unfaithful to human viewers. To address this problem, we first construct a large-scale human-preference dataset **VAPref-10K** for joint video-audio generation, comprising 9K prompts and 10.3K fine-grained paired comparisons from open-source generation models. We also introduce the **VA-Judger-Bench** benchmark with both in-domain and out-of-domain model comparisons to evaluate whether reward models truly align with human preferences. We further propose **VA-Judger**, a chain-of-thought omni-reward model for joint video-audio generation. In particular, VA-Judger first learns from pairs with clear quality gaps to establish structured output and coarse preference discrimination, then distills reliable preference explanations for harder near-quality comparisons via rejection sampling verified against human annotations, and finally performs dimension-wise reinforcement learning that decomposes human feedback into individual quality dimensions for denser reward signals than a single binary preference label. Experiments show that VA-Judger outperforms metric baselines in predicting human preferences on both in-domain and out-of-domain evaluations. Using its human-aligned rewards for post-training audio-video generation models also yields significant improvements in generation quality.
+Using reinforcement learning to post-train joint video and audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perceptual dimensions separately and fail to capture the overall semantic and temporal coherence among the text prompt, video, and audio that shapes human preferences. Optimizing models against these metrics encourages reward hacking, generating video-audio content that achieves high scores on these metrics yet appears incoherent or unfaithful to human viewers. To address this problem, we first construct a large-scale human-preference dataset **VAPref-10K** for joint video-audio generation, comprising 9K prompts and 10.3K fine-grained paired comparisons from open-source generation models. We also introduce the **VA-Judger-Bench** benchmark with both in-domain and out-of-domain model comparisons to evaluate whether reward models truly align with human preferences. We further propose **VA-Judger**, a chain-of-thought omni-reward model for joint video-audio generation. In particular, VA-Judger first learns from pairs with clear quality gaps to establish structured output and coarse preference discrimination, then distills reliable preference explanations for harder near-quality comparisons via rejection sampling verified against human annotations, and finally performs dimension-wise reinforcement learning that decomposes human feedback into individual quality dimensions for denser reward signals than a single binary preference label. Experiments show that VA-Judger outperforms metric baselines in predicting human preferences on both in-domain and out-of-domain evaluations. Using its human-aligned rewards for post-training audio-video generation models also yields significant improvements in generation quality.
 
 ## Generation Demos
 
@@ -82,31 +107,6 @@ Using reinforcement learning to post-train joint video and audio generation mode
 <img src="assets/pipeline.webp" alt="VA-Judger training pipeline" width="1280"/>
 
 *VA-Judger learns the comparison rubric from easy pairs, aligns with human feedback on hard pairs, and is refined with dimension-wise GRPO.*
-
-## 🔥 News
-
-- **2026-08-20:** The project page, paper, basic code, checkpoints, and VA-Judger-Bench are now available. Additional training code and the VAPref-10K dataset will be released soon. Stay tuned!
-
-## 🛠️ To-Do List
-
-- [x] Reward model SFT code
-- [x] LTX-2 RL code
-- [x] VA-Judger-Bench
-- [x] VA-Judger checkpoint
-- [x] RL post-trained LTX-2 checkpoint
-- [x] Reward model inference code
-- [x] Video model inference code
-- [ ] Reward model dimension-wise GRPO code
-- [ ] VAPref-10K dataset release
-
-VA-Judger provides an end-to-end recipe for:
-
-1. evaluating a Qwen3-Omni audio-video preference reward model on VA-Judger-Bench;
-2. generating audio-video samples with an LTX-2 model merged with the released RL LoRA;
-3. supervised fine-tuning of the reward model with MS-Swift; and
-4. optimizing LTX-2 with dimension-aware GRPO rewards from VA-Judger.
-
-The reward model compares two candidate audio-video generations for the same prompt. It predicts the preferred candidate and scores prompt alignment, audio-video consistency, audio quality, video quality, and content completeness. During video-model RL, these scores are routed to the shared, audio, and video branches of LTX-2.
 
 ## Repository layout
 
