@@ -1,6 +1,7 @@
 # VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation
 
 <a href="https://sharelab-sii.github.io/VA-Judger/"><img src="https://img.shields.io/badge/Project-Page-2ea44f" alt="Project Page"/></a>
+<a href="https://arxiv.org/abs/2608.18607"><img src="https://img.shields.io/badge/arXiv-2608.18607-b31b1b" alt="arXiv"/></a>
 <a href="https://huggingface.co/YinmingHuang/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-VA--Judger-ffc107" alt="Checkpoints"/></a>
 <a href="https://huggingface.co/datasets/YinmingHuang/VA-Judger-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-VA--Judger--Bench-4c8bf5" alt="Dataset"/></a>
 
