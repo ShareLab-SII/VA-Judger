@@ -5,11 +5,7 @@
 <a href="https://huggingface.co/YinmingHuang/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-VA--Judger-ffc107" alt="Checkpoints"/></a>
 <a href="https://huggingface.co/datasets/YinmingHuang/VA-Judger-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-VA--Judger--Bench-4c8bf5" alt="Dataset"/></a>
 
-[Yinming Huang](https://yinminghuang.github.io/)<sup>1,2,\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>2,\*</sup>, Xi Yan<sup>2</sup>, [Zihan Yang](https://github.com/pnotp)<sup>2</sup>, [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en)<sup>3</sup>, [Xu Hang](https://scholar.google.com/citations?user=J_8TX6sAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>2,†</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>1,2,†</sup>
-
-<sup>1</sup>Shanghai Innovation Institution
-<sup>2</sup>Fudan University
-<sup>3</sup>Yinwang Intelligent Technology Co., Ltd
+[Yinming Huang](https://yinminghuang.github.io/)<sup>\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>\*</sup>, Xi Yan, [Zihan Yang](https://github.com/pnotp), [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en), [Xu Hang](https://scholar.google.com/citations?user=J_8TX6sAAAAJ&hl=en&oi=ao) [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>†</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>†</sup>
 
 <sup>*</sup>Equal contribution. <sup>†</sup>Corresponding authors.
 
