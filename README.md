@@ -11,7 +11,7 @@
 
 <sup>*</sup>Equal contribution. <sup>†</sup>Corresponding authors.
 
-### 🔥 VA-Judger is the first reward model for Joint Video-Audio Generation.
+### 🔥 VA-Judger is the first general Reward Model for Joint Video-Audio Generation.
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
