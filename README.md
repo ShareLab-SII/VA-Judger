@@ -7,7 +7,9 @@
 <a href="https://huggingface.co/ShareLab-SII/VA-Judger"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-VA--Judger-ffc107" alt="Checkpoints"/></a>
 <a href="https://huggingface.co/datasets/ShareLab-SII/VA-Judger-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-VA--Judger--Bench-4c8bf5" alt="Dataset"/></a>
 
-[Yinming Huang](https://yinminghuang.github.io/)<sup>\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>\*</sup>, Xi Yan, [Zihan Yang](https://github.com/pnotp), [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en), [Xu Hang](https://scholar.google.com/citations?user=J_8TX6sAAAAJ&hl=en&oi=ao), [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>†</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>†</sup>
+[Yinming Huang](https://yinminghuang.github.io/)<sup>1,2,\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>1,\*</sup>, Xi Yan<sup>1</sup>, [Zihan Yang](https://github.com/pnotp)<sup>1</sup>, [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en)<sup>3</sup>, [Hang Xu](https://scholar.google.com/citations?user=J_8TX6sAAAAJ&hl=en&oi=ao)<sup>3</sup>, Kaihang Pan<sup>4</sup>, [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>1,†</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>1,2,†</sup>
+
+<sup>1</sup>Fudan University &nbsp; <sup>2</sup>Shanghai Innovation Institution &nbsp; <sup>3</sup>Yinwang Intelligent Technology Co., Ltd &nbsp; <sup>4</sup>Zhejiang University
 
 <sup>*</sup>Equal contribution. <sup>†</sup>Corresponding authors.
 
@@ -648,7 +650,7 @@ If you find our work useful, please consider citing:
 ```bibtex
 @article{huang2026vajudger,
   title={VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation},
-  author={Huang, Yinming and Tu, Shuyuan and Yan, Xi and Yang, Zihan and Han, Jianhua and Hang, Xu and Jiang, Yu-Gang and Wu, Zuxuan},
+  author={Huang, Yinming and Tu, Shuyuan and Yan, Xi and Yang, Zihan and Han, Jianhua and Xu, Hang and Pan, Kaihang and Jiang, Yu-Gang and Wu, Zuxuan},
   journal={arXiv preprint arXiv:2608.18607},
   year={2026}
 }
