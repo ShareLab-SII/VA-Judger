@@ -641,7 +641,7 @@ We also thank [vLLM](https://github.com/vllm-project/vllm), [vLLM-Omni](https://
 ## Contact
 If you have any suggestions or find our work helpful, feel free to contact us.
 
-Email: [yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
+Email: [26113050052@m.fudan.edu.cn](mailto:26113050052@m.fudan.edu.cn), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
 
 ## Citation
 
